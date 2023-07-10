@@ -24,6 +24,7 @@ function OnClickAutoAcceptToggleButton() {
 
         video.setAttribute('src', '/fe/lol-parties/social-panel-bg-loop.webm');
         text.textContent = 'Auto accept disabled';
+        AutoAccept = false;
 
         DataStore.set('NiiceAutoAccept', AutoAccept);
     }
